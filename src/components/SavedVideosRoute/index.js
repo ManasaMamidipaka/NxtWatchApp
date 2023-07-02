@@ -34,6 +34,7 @@ class SavedVideosRoute extends Component {
 
         console.log(savedVideos)
         const isVideosAvailable = savedVideos.length === 0
+
         return isVideosAvailable ? (
           <NotFoundContainer bgColor={bgColor}>
             <Image

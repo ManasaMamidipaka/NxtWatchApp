@@ -28,7 +28,7 @@ export const ProfileImage = styled.img`
   margin-right: 10px;
 `
 
-export const VideoDetailsContainer = -styled.div`
+export const VideoDetailsContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 25px;

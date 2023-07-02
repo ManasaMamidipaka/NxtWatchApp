@@ -11,6 +11,7 @@ export const BannerImageContainer = styled.div`
   background-size: cover;
   display: ${props => props.display};
   flex-direction: row;
+  justify-content: space-between;
   width: 80%;
   height: 40vh;
   padding: 50px;
@@ -78,7 +79,7 @@ export const AlignRow = styled.div`
 
 export const ModalContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 `

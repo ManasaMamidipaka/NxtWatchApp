@@ -118,7 +118,7 @@ export const CloseButton = styled.button`
 
 export const ModalDesc = styled.p`
   font-family: 'Roboto';
-  font-size: 25pc;
+  font-size: 25px;
   margin: 10px;
   color: black;
 `

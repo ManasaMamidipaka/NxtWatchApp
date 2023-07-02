@@ -6,7 +6,7 @@ import LoginForm from './components/LoginForm'
 import HomeRoute from './components/HomeRoute'
 import NotFound from './components/NotFound'
 import ProtectedRoute from './components/protectedRoute'
-import VideoDetails from './components/VideoItemDetailsView'
+import VideoItemDetails from './components/VideoItemDetailsView'
 import TrendingRoute from './components/TrendingRoute'
 import GamingRoute from './components/GamingRoute'
 import SavedVideosRoute from './components/SavedVideosRoute'
@@ -77,7 +77,11 @@ class App extends Component {
             path="/saved-videos"
             component={SavedVideosRoute}
           />
-          <ProtectedRoute exact path="/videos/:id" component={VideoDetails} />
+          <ProtectedRoute
+            exact
+            path="/videos/:id"
+            component={VideoItemDetails}
+          />
           <Route path="/not-found" component={NotFound} />
           <Redirect to="not-found" />
         </Switch>

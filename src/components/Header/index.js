@@ -41,6 +41,7 @@ const Header = props => {
         }
 
         const bgColor = isDarkTheme ? '#181818' : '#f9f9f9'
+
         const textColor = isDarkTheme ? '#f9f9f9' : '#181818'
 
         const websiteLogo = isDarkTheme

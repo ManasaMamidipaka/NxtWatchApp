@@ -45,7 +45,7 @@ const apiStatusConstants = {
   failure: 'FAILURE',
 }
 
-class VideoDetails extends Component {
+class VideoItemDetails extends Component {
   state = {
     videoDetails: [],
     apiStatus: apiStatusConstants.initial,
@@ -246,11 +246,7 @@ class VideoDetails extends Component {
         We are having some trouble to complete your request. Please try again.
       </Desc>
       <NavLink>
-        <Retry
-          className="button"
-          type="button"
-          onClick={this.getSuggestionVideos}
-        >
+        <Retry className="button" type="button" onClick={this.getVideoDetails}>
           Retry
         </Retry>
       </NavLink>
@@ -278,4 +274,4 @@ class VideoDetails extends Component {
   }
 }
 
-export default VideoDetails
+export default VideoItemDetails

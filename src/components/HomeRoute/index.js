@@ -34,7 +34,7 @@ class HomeRoute extends Component {
               src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
               alt="nxt watch logo"
             />
-            <p>Buy Nxt Watch Premium</p>
+            <p>Buy Nxt Watch Premium Plans with UPI</p>
             <GetItNowButton>GET IT NOW </GetItNowButton>
           </ModalContainer>
           <CloseButton
@@ -56,7 +56,6 @@ class HomeRoute extends Component {
         {value => {
           const {isDarkTheme} = value
           const bgColor = isDarkTheme ? '#181818' : '#f9f9f9'
-
           return (
             <div data-testid="home">
               <Header />

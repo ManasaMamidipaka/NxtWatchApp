@@ -15,7 +15,7 @@ export const LoginFormContainer = styled.div`
   }
 `
 
-export const FormContainer = styled.from`
+export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;

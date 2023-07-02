@@ -48,6 +48,7 @@ export const NotFoundContainer = styled.div`
 export const Image = styled.img`
   width: 300px;
   margin: 20px;
+  margin-left: 400px;
 `
 
 export const Heading = styled.h1`
@@ -72,7 +73,13 @@ export const NavLink = styled(Link)`
 `
 
 export const Retry = styled.button`
-  padding: 15px;
-  color: blue;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: 0px;
+  height: 38px;
+  width: 125px;
+  font-size: 18px;
   cursor: pointer;
+  margin-left: 500px;
 `

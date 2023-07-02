@@ -91,7 +91,7 @@ class GamingRoute extends Component {
       {value => {
         const {isDarkTheme} = value
         const {searchedVideos} = this.state
-        const bgColor = isDarkTheme ? '#231f20' : '#0f0f0f'
+        const bgColor = isDarkTheme ? '#231f20' : '#f9f9f9'
 
         return (
           <SearchVideosContainer data-testid="gaming" bgColor={bgColor}>
@@ -116,7 +116,7 @@ class GamingRoute extends Component {
       />
       <Heading>Oops! Something Went Wrong</Heading>
       <Desc className="jobs-failure-description">
-        We are having trouble to complete your request.Please try again.
+        We are having some trouble.
       </Desc>
       <NavLink>
         <Retry
